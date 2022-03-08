@@ -1,10 +1,3 @@
-class Animal:
-    def eat(self):
-        print("This animal is eating")
+# super() = Function used to give access to the methods of a parent class.
+#	    returns a temporary object of a parent class when used
 
-class Rabbit(Animal):
-    def eat(self):
-        print("This rabbit is eating a carrot")
-
-rabbit = Rabbit()
-rabbit.eat()

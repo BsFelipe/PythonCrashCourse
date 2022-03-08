@@ -4,9 +4,9 @@
 def add(*stuff):
     sum = 0
     stuff = list(stuff)#its impossible to change value inside a tuple, you need to use a list
-    stuff[0] = 0
+
     for i in stuff:
         sum += i
     return sum
 
-print(add(1,2))
+print(add(3,3,3,3))
