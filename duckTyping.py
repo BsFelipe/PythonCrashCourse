@@ -16,7 +16,7 @@ class Chicken:
         print("This chicken is walking")
 
     def talk(self):
-        print("This chicken is clucking")
+        print("This chicken is chucking")
 
 
 class Person:
@@ -31,5 +31,5 @@ duck = Duck()
 chicken = Chicken()
 person = Person()
 
-person.catch(duck)
+person.catch(chicken)
 
